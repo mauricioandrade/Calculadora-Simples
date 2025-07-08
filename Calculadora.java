@@ -70,7 +70,7 @@ public class Calculadora {
                 System.out.println("**********************");
             } catch (InputMismatchException e) {
                 System.out.println("Erro: você deve digitar um número inteiro.");
-                teclado.nextLine(); // limpa o buffer
+                teclado.nextLine();
             }
         }
     }
